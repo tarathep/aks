@@ -81,3 +81,11 @@ Introduction Azure Kubernetes Service
   kubectl logs -l app=nginx --namespace kube-system
   ```
 - cheat sheet : https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+
+
+## Kubernetes Concepts
+- POD with YAML
+- Demo - PODs with YAML
+- Tips & Tricks - Developing Kubernetes Manifest files with Visual Studio Code
+- Replication Controllers and ReplicaSets
+- Demo - ReplicaSets
