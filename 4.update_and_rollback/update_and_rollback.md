@@ -35,8 +35,6 @@ update version old eg.
 
 ---
 
-## Lab
-
 ## create deployment
 
 ```bash
