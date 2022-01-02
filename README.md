@@ -37,10 +37,15 @@ Introduction Azure Kubernetes Service
     - Kubernetes cluster name : aks-lab-001
     - Region : Southeast Asia
     - Aviability zones :
+  - Node pools
+    - Node pools : enable public IP per node
   - Authentication
     - Authenication method : Service principal
     - Service principal client ID : xxx
     - Service principal client secret : xxx
+- Integration
+  - Azure Monitor
+    - Container monitoring : Disable
 - Review & Create
 
 
@@ -84,8 +89,21 @@ Introduction Azure Kubernetes Service
 
 
 ## Kubernetes Concepts
+
 - POD with YAML
-- Demo - PODs with YAML
 - Tips & Tricks - Developing Kubernetes Manifest files with Visual Studio Code
 - Replication Controllers and ReplicaSets
-- Demo - ReplicaSets
+- Deployment
+- Deployment - Update and Rollback
+  
+## Networking in Kubernetes
+
+- Basic of Networking in Kubernetes
+
+## Services
+
+- Services - NodePort
+- Service - ClusterIP
+- Sercice - Load Balancer
+
+## Microservice Architecture
