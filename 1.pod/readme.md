@@ -106,6 +106,15 @@ Events:
   Normal  Started    2m41s  kubelet            Started container nginx
 ```
 
+Debug Loging
+```bash
+kubectl logs [podname] -f
+```
+
+Dubug Access in Pod
+```bash
+kubectl exec -it --namespace [develop] [pod-name] bash
+```
 
 Edit Pod
 
