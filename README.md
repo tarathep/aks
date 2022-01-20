@@ -33,19 +33,21 @@ Introduction Azure Kubernetes Service
 - go to Create in Resource group
 - in the Create a resource page then select Kubernetes Service
   - Basics
-    - Subscrption
-    - Kubernetes cluster name : aks-lab-001
+    - Subscrption : 
+    - Kubernetes cluster name :  rg-tutorial-cicd-lab
     - Region : Southeast Asia
     - Aviability zones :
   - Node pools
-    - Node pools : enable public IP per node
+    - Node pools : 
   - Authentication
     - Authenication method : Service principal
     - Service principal client ID : xxx
     - Service principal client secret : xxx
-- Integration
-  - Azure Monitor
-    - Container monitoring : Disable
+  - Networking
+    - DNS name prefix
+  - Integration
+    - HTTP application routing : Yes
+      - Container monitoring : Disable
 - Review & Create
 
 
@@ -106,4 +108,3 @@ Introduction Azure Kubernetes Service
 - Service - ClusterIP
 - Sercice - Load Balancer
 
-## Microservice Architecture
