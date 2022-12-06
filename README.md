@@ -1,4 +1,7 @@
 # Introduction Azure Kubernetes Service
+
+<div align=center><img src="./aks-k8s-logo.png" width=50%></div>
+
 Introduction Azure Kubernetes Service
 
 
